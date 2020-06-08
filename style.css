@@ -1,0 +1,65 @@
+body{
+	background-image: url(abstract-aroma-aromatic-333513.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+	
+.menu{
+	background-color: #281059;
+	width: 600px;
+	margin: 30px auto;
+}
+.menu ul{
+	list-style: none;
+	
+}
+.menu ul li{
+	display: inline-block;
+	position: relative;
+
+
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	padding:  20px 30px;
+	font-weight: bold;
+	display: block;
+	border: 1px solid white;
+	margin-left: 22px;
+}
+.menu ul li a:hover{
+	background-color: red;
+	transition: 0.8s;
+}
+
+.menu ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+.menu ul li:hover ul{
+	opacity: 1;
+	visibility: visible;
+}
+.menu ul li ul li{
+	display: block;
+}
+.menu ul li ul li a{
+	margin-left: -20px;
+	padding: -12px;
+}
+.logo img{
+	height: 150px;
+	width: 150px;
+	margin-top: -190px;
+
+}
+.footer{
+	min-height: 50px;
+	background-color: gray;
+	margin-top: 200px;
+	text-align: center;
+}
